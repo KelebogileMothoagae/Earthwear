@@ -71,9 +71,9 @@ export const getProductbyID = async (req, res) => {
 
          // Return response
          if(results.length > 0){
-        res.status(201).json( [results] );
+        res.status(201).json(  {  user: results.toString() } );
          }else{
-            
+             res.status(400).json( {message: "No Products Found"} );
          }
 
         connection.release();
@@ -84,3 +84,8 @@ export const getProductbyID = async (req, res) => {
     }
 
 }
+
+//remove product
+
+
+
