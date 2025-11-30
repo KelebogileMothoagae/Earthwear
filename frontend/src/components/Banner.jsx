@@ -1,7 +1,7 @@
-import sliderImg from "../assets/slider_1.jpg";
-import bannerImg1 from "../assets/banner_1.jpg";
-import bannerImg2 from "../assets/banner_2.jpg";
-import bannerImg3 from "../assets/banner_3.jpg";
+import sliderImg from "/assets/slider_1.jpg";
+import bannerImg1 from "/assets/banner_1.jpg";
+import bannerImg2 from "/assets/banner_2.jpg";
+import bannerImg3 from "/assets/banner_3.jpg";
 
 const Banner = () => {
   return (
